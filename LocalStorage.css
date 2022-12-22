@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: whitesmoke;
+
+}
+
+.header {
+    text-align: center;
+    padding: 23px;
+    width: auto;
+    border-radius: 12px;
+    color: #000;
+    background: #a4baee;
+
+}
+
+.heading__div {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.table__div {
+    text-align: center;
+}
+
+h2 {
+    color: #000;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34px;
+    width: 430px;
+    padding: 64px;
+    background: #a4baee;
+    border-radius: 9px;
+    color: #000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input {
+    border-radius: 4px;
+    height: 20px;
+    padding-left: 12px;
+}
+
+.data__div {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.table__data {
+    margin-top: 23px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px;
+    width: 8rem;
+    margin-top: 42px;
+    border-radius: 9px;
+    font-size: medium;
+    border: none;
+    color: #000;
+    background: #a4baee;
+
+}
+
+.btn1 {
+    padding: 10px;
+    width: 8rem;
+    text-align: center;
+    margin-top: 42px;
+    border-radius: 9px;
+    font-size: medium;
+    border: none;
+    background: #a4baee;
+}
+
+
+
+/*----------- media query for small devices-------------- */
+@media screen and (max-width:425px) {
+    .header {
+        width: 382px;
+    }
+
+    .center {
+        width: 316px;
+    }
+}
+@media screen and (min-width:325px) and (max-width:440px) {
+    .header {
+        width: 470px;
+    }
+
+    .center {
+        margin-left: 30px;
+        padding: 34px;
+    }
+
+    .btn {
+        margin-left: 6rem;
+    }
+    .btn1 {
+        margin-left: 6rem;
+    }
+    h3 {
+        align-items: center;
+        margin-left: 132px;
+    }
+
+ 
+
+    .main__table {
+        
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .center {
+        margin-left: 20px;
+    }
+
+    .btn {
+        margin-left: 13rem;
+    }
+
+    .btn1 {
+        margin-left: 13rem;
+    }
+
+    .header {
+        padding-right: 9rem;
+    }
+
+   
+
+    h2 {
+        padding-left: 63px;
+    }
+
+    h3 {
+        align-items: center;
+        margin-left: 132px;
+    }
+
+    .main__table {
+        
+        padding: 113px;
+    }
+
+}
